@@ -45,7 +45,7 @@ class App extends React.Component {
     if (winner) {
       status = 'Winner: ' + winner;
     } else {
-      status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
+      status = <div className='des'>{'Next player: ' + (this.state.xIsNext ? 'X' : 'O')}</div>
     }
 
     return (

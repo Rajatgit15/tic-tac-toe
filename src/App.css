@@ -3,9 +3,19 @@ body {
   margin: 20px;
   display: flex;
   justify-content: center;
+  background-image: url('aq.jpg');
   
 }
 
+
+.des{
+  font-size: large;
+  padding:10px;
+  font-weight: bold;
+ 
+  margin-left: -10px;
+  
+}
 ol, ul {
   padding-left: 30px;
 }
@@ -27,12 +37,12 @@ ol, ul {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 40px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 40px;
   
   
 }
